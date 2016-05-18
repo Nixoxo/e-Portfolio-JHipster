@@ -21,22 +21,23 @@ Dieses Repository beschreibt mein e-Portfolio über JHipster in Softwareengineri
 
 
 ##Tutorial
-1. Erstelle einen Ordner und führe in diesem Verzeichnis den Befehl ```yo jhipster``` aus
+1. Erstelle einen Ordner und führe in diesem Verzeichnis den folgenden Befehl  aus: ```yo jhipster```
 	* 1/16 Monolithic application
 	* 6/16 SQL
 	* 7/16 MySQL
 	* 8/16 H2 with disk-based persistence
 	* 13/16 Gradle
 	* 16/16 Cucumber
-2. Erstelle die Entities ```Owner``` und ```Car``` mit dem JDL Studio.
+2. Erstelle die Entities ```Owner``` und ```Car``` mit dem [JDL Studio](http://jhipster.github.io/jdl-studio/). Wie die einzelen Datentypen spezifiert werden können, kann aus [hier](http://jhipster.github.io/jdl/) nachgelassen werden.
 3. Der ```Owner``` verfügt über folgende Attribute:
 	* Firstname
 	* Lastname
 	* Birthyear
-	* Des Weiteren soll ein ```Owner``` über mehrere Autos verfügen
 3. Das ```Car``` verfügt über folgende Attribute:
 	* Model
 	* Company
 	* DateOfProduction
+4. Ein ```Car``` verfügt genau über einen ```Owner```. Ein ```Owner``` kann über mehrere ```Cars``` verfügen.
 4. Importiere die erstellen Entitäten in JHipster mit dem folgendem Befehl ```yo jhipster:import-jdl filename.jh```
-5. Starte die Anwendung
+5. Führe die Tests aus.
+6. Starte die Anwendung und lege einen ```Owner``` mit einem zugehörigen ```Car``` an.
