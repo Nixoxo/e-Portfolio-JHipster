@@ -32,12 +32,11 @@ Dieses Repository beschreibt mein e-Portfolio über JHipster in Softwareengineri
 3. Der ```Owner``` verfügt über folgende Attribute:
 	* Firstname
 	* Lastname
-	* Birthday
 	* Birthyear
 	* Des Weiteren soll ein ```Owner``` über mehrere Autos verfügen
 3. Das ```Car``` verfügt über folgende Attribute:
 	* Model
 	* Company
-	* Herstellungsdatum
+	* DateOfProduction
 4. Importiere die erstellen Entitäten in JHipster mit dem folgendem Befehl ```yo jhipster:import-jdl filename.jh```
 5. Starte die Anwendung
