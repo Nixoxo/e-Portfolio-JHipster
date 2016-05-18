@@ -1,0 +1,32 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "owner",
+      "otherEntityName": "owner",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "id"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "model",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 2,
+      "fieldName": "company",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 3,
+      "fieldName": "dateOfProduction",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "changelogDate": "20160518195844",
+  "dto": "no",
+  "pagination": "pager",
+  "service": "serviceClass"
+}

@@ -1,0 +1,32 @@
+{
+  "relationships": [
+    {
+      "relationshipId": 1,
+      "relationshipName": "cars",
+      "otherEntityName": "car",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "owner"
+    }
+  ],
+  "fields": [
+    {
+      "fieldId": 1,
+      "fieldName": "firstname",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 2,
+      "fieldName": "lastname",
+      "fieldType": "String"
+    },
+    {
+      "fieldId": 3,
+      "fieldName": "birthyear",
+      "fieldType": "Integer"
+    }
+  ],
+  "changelogDate": "20160518195843",
+  "dto": "no",
+  "pagination": "pager",
+  "service": "serviceClass"
+}
