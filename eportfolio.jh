@@ -1,0 +1,19 @@
+entity Owner{
+ firstname String,
+ lastname String,
+ birthyear Integer
+}
+
+entity Car{
+ model String,
+ company String,
+ dateOfProduction LocalDate
+}
+
+relationship OneToMany{
+  Owner{cars} to Car
+}
+paginate all with pager
+//dto all with mapstruct
+
+service all with serviceClass
