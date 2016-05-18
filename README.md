@@ -19,3 +19,25 @@ Dieses Repository beschreibt mein e-Portfolio über JHipster in Softwareengineri
 3. Gulp: ```npm install -g gulp```
 4. JHipster: ```npm install -g generator-jhipster```
 
+
+##Tutorial
+1. Erstelle einen Ordner und führe in diesem Verzeichnis den Befehl ```yo jhipster``` aus
+	* 1/16 Monolithic application
+	* 6/16 SQL
+	* 7/16 MySQL
+	* 8/16 H2 with disk-based persistence
+	* 13/16 Gradle
+	* 16/16 Cucumber
+2. Erstelle die Entities ```Owner``` und ```Car``` mit dem JDL Studio.
+3. Der ```Owner``` verfügt über folgende Attribute:
+	* Firstname
+	* Lastname
+	* Birthday
+	* Birthyear
+	* Des Weiteren soll ein ```Owner``` über mehrere Autos verfügen
+3. Das ```Car``` verfügt über folgende Attribute:
+	* Model
+	* Company
+	* Herstellungsdatum
+4. Importiere die erstellen Entitäten in JHipster mit dem folgendem Befehl ```yo jhipster:import-jdl filename.jh```
+5. Starte die Anwendung
