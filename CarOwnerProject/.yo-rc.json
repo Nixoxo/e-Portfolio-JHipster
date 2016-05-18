@@ -1,0 +1,26 @@
+{
+  "generator-jhipster": {
+    "jhipsterVersion": "3.0.0",
+    "baseName": "CarOwnerProject",
+    "packageName": "de.dhbw.softwareengineering.portfolio",
+    "packageFolder": "de/dhbw/softwareengineering/portfolio",
+    "serverPort": "8080",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "buildTool": "gradle",
+    "enableSocialSignIn": false,
+    "rememberMeKey": "13e999ac720047c716321fbd393d1ff098bcc1a8",
+    "useSass": false,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": false
+  }
+}

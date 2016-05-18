@@ -1,0 +1,10 @@
+version: '2'
+services:
+    carownerproject-elasticsearch:
+        container_name: carownerproject-elasticsearch
+        image: elasticsearch:1.7.5
+        # volumes:
+        #     - ~/volumes/jhipster/CarOwnerProject/elasticsearch/:/usr/share/elasticsearch/data/
+        ports:
+            - 9200:9200
+            - 9300:9300
